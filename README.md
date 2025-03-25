@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ### 4. Configure environment variables
 A sample environment file is provided. Rename `.env-example` to `.env`, then, open the .env file and fill in your configuration
-
+```env
 OPENAI_TOKEN=
 GEMINI_TOKEN=
 CLAUDE_TOKEN=
@@ -45,6 +45,7 @@ POSTGRES_HOST=localhost
 POSTGRES_PORT=5555
 POSTGRES_USER=
 POSTGRES_PASSWORD=
+```
 
 ### 5. Start the database with Docker
 ```bash
