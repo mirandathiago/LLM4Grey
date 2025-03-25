@@ -1,7 +1,7 @@
 from pydantic import BaseModel, Field
 from typing import Literal
 
-class OutputFormat(BaseModel):
+class OutputValidator(BaseModel):
     inclusion: Literal["Yes", "No"] = Field(
         ..., 
         description="Indicates whether the discussion should be included in the review ('Yes' or 'No')"

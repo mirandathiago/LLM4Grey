@@ -1,5 +1,6 @@
 import os
 from dotenv import load_dotenv
+import json
 
 load_dotenv()
 load_dotenv(dotenv_path=".env", override=True)
@@ -11,6 +12,7 @@ RESULTS_DIR = os.path.join(BASE_DIR, "results")
 DATA_DIR = os.path.join(BASE_DIR, "data")
 RAW_DATA_DIR = os.path.join(BASE_DIR, "raw_data", "dump")
 DATASETS_DIR = os.path.join(BASE_DIR, "datasets")
+SCHEMA_PATH = os.path.join(PROMPT_DIR, "outputformat.json")
 
 DISCUSSIONS_FILE = os.path.join(BASE_DIR, "raw_data", "discussions.txt")
 INCLUDED_FILE = os.path.join(BASE_DIR, "raw_data", "included.txt")
@@ -69,6 +71,16 @@ LLM_MODELS = {
         "rate_limit": False
     },
 }
+
+try:
+    with open(SCHEMA_PATH, "r", encoding="utf-8") as f:
+        RESPONSE_SCHEMA = json.load(f)
+        if RESPONSE_SCHEMA.get("type") != "json_schema":
+            raise ValueError("❌ Schema file must have 'type': 'json_schema'")
+         
+except Exception as e:
+        raise RuntimeError(f"❌ Error loading response schema: {e}")
+
 
 for model_name, details in LLM_MODELS.items():
     if not details["api_key"]:

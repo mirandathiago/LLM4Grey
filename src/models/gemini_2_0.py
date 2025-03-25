@@ -1,10 +1,11 @@
 import json
+import copy
 from google import genai
 from google.genai.types import GenerateContentConfig
 
 
 from .model import Model
-from output.format import OutputFormat
+from config import RESPONSE_SCHEMA
 
 
 class Gemini_2_0(Model):
@@ -16,6 +17,9 @@ class Gemini_2_0(Model):
 
     def execute(self, system_prompt: str, user_prompt: str, temperature: float) -> dict:
         
+       schema = copy.deepcopy(RESPONSE_SCHEMA["json_schema"]["schema"])
+       schema.pop("additionalProperties", None) 
+       
        response = self.client.models.generate_content(
         model="gemini-2.0-flash",
         contents=user_prompt,
@@ -24,7 +28,7 @@ class Gemini_2_0(Model):
             max_output_tokens=400,
             temperature=temperature,
             response_mime_type='application/json',
-            response_schema=OutputFormat
+            response_schema=schema
         ),
         )
        

@@ -1,0 +1,28 @@
+{
+    "type": "json_schema",
+    "json_schema": {
+        "name": "discussion_analysis_schema",
+        "schema": {
+            "type": "object",
+            "properties": {
+                "inclusion": {
+                    "description": "Indicates if the discussion is included ('Yes' or 'No').",
+                    "type": "string",
+                    "enum": ["Yes", "No"]
+                },
+                "confidence": {
+                    "description": "A number between 0 and 1 indicating how CERTAIN you are about the classification you provided. A score near 1.0 means you are highly confident that your classification is correct; a score near 0.0 means you are very uncertain",
+                    "type": "number",
+                    "minimum": 0.0,
+                    "maximum": 1.0
+                },
+                "justification": {
+                    "description": "Explanation for the decision based on the discussion's content.",
+                    "type": "string"
+                }
+            },
+            "required": ["inclusion", "confidence", "justification"],
+            "additionalProperties": false
+        }
+    }
+}

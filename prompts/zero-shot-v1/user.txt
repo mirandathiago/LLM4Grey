@@ -1,11 +1,8 @@
-##Task:
-Analyze the provided discussion and determine whether it meets the inclusion cri-
-teria for a systematic review on Technical Debt (TD). Your classification must be
-based exclusively on the content of the discussion, adhering strictly to the defined
-inclusion and exclusion criteria. Avoid making assumptions or drawing conclusions
+##  Task:
+Analyze the provided discussion and determine whether it meets the inclusion criteria for a systematic review on Technical Debt (TD). Your classification must be based exclusively on the content of the discussion, adhering strictly to the defined inclusion and exclusion criteria. Avoid making assumptions or drawing conclusions
 beyond the explicit information presented in the text.
 
-##Discussion:
+## Discussion:
 Title: <title>
 Body: <body>
 Comments: <comments>

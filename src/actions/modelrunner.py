@@ -1,7 +1,7 @@
 import importlib
 import json
 from config import LLM_MODELS
-from output.format import OutputFormat
+from validate.outputvalidator import OutputValidator
 
 class ModelRunner:
 
@@ -51,7 +51,7 @@ class ModelRunner:
             raise ValueError(f"❌ Resposta inválida do modelo '{self.model_name}':\n{raw_response}")
 
         try:
-            validated = OutputFormat(**json_response)
+            validated = OutputValidator(**json_response)
             return {
                 "id": discussion["id"],
                 "inclusion": validated.inclusion,
