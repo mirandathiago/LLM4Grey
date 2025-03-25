@@ -1,5 +1,5 @@
 from steps.step import Step
 
 class Consensus(Step):
-   def run():
+   def run(self):
         pass

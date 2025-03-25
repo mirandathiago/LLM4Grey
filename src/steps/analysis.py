@@ -1,5 +1,5 @@
 from steps.step import Step
 
 class Analysis(Step):
-   def run():
+   def run(self):
         pass

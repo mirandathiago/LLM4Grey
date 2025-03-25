@@ -7,3 +7,4 @@ psycopg
 lxml
 beautifulsoup4 
 tqdm
+openai

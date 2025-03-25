@@ -1,0 +1,79 @@
+[
+    {
+        "id": 22716,
+        "title": "Should building microservices be a chore or a feature in scrum?",
+        "body": "We have recently started splitting a big monolith to individual microservices. Now the point of discussion is that under scrum methodology, building microservices should be a feature or chore? As per the scrum protocols, anything that doesn't provide direct value to users should not be a feature.",
+        "score": 1,
+        "creationdate": "2017-10-30 11:39:43.570000",
+        "viewcount": 825,
+        "tags": "<scrum><agile><project-management-style>",
+        "answercount": 3,
+        "favoritecount": null,
+        "userId": 30305,
+        "comments": []
+    },
+    {
+        "id": 24493,
+        "title": "What should we do if there are not enough PBIs to fill a final Sprint in Scrum?",
+        "body": "Background Scenario At the end of a project, there aren't enough story points to fill a two-week Sprint based on the velocity of the team.  Capacity & Backlog The average velocity of the Development Team is actually 40 points per Sprint. In the Product Backlog there are just 20 points remaining to be completed. Question Should we start this final Sprint as a standard two-week Sprint, no matter the amount of points remaining, or should we use a quick one-week Sprint in this case?",
+        "score": 12,
+        "creationdate": "2018-07-16 01:36:35.083000",
+        "viewcount": 2397,
+        "tags": "<scrum><sprint><sprint-planning><product-backlog>",
+        "answercount": 4,
+        "favoritecount": 2,
+        "userId": 32948,
+        "comments": []
+    },
+    {
+        "id": 24688,
+        "title": "Is a good Scrum practice to meassure the developer team by the story points completed at the end of the sprint?",
+        "body": "We have new teams working on scrum and they estimates all the points of a several ammount of stories. But, at the beggining, they have no reference of how ammount of points could be delivered in two-week sprint. We see at the end of the sprints that not all the points are being completed. Near to the end, the team is overhelming, and the quality is being sacrified just for deliver on time. I want to know if this kind of KPI makes sence in scrum environment, and if not, how  can we assure the team are being as productive as they normally are?",
+        "score": 4,
+        "creationdate": "2018-08-11 22:16:29.543000",
+        "viewcount": 257,
+        "tags": "<scrum><planning><sprint><kpi><measurement>",
+        "answercount": 2,
+        "favoritecount": 2,
+        "userId": 32948,
+        "comments": [
+            {
+                "text": "Before scrum, we just measure the deliver on-time, rather than productivity itself. The team set the due date of each task and they must complete it in the agreed time.",
+                "score": 0,
+                "userId": 32948
+            }
+        ]
+    },
+    {
+        "id": 24992,
+        "title": "What to do with a Product Owner who is not able to understand the role",
+        "body": "I am a ScrumMaster for a team of developers and QA's with a Product Owner. I have tried unsuccessfully for the last year to get the PO to understand what the role of the PO entails and he just does not seem to get it. He tries my suggestions for a few weeks and then he slips into his old mode of working especially when deadlines loom:  Micromanages team members Manages the team Attempts to plan the teams day, during standups Leers at them when they are sitting in a group chatting and asks why they are not working Constantly asks for updates Attempts to design the solution Relentless in his pursuit of understanding the solution design at a low level Dominates almost every team meeting and ceremony including technical solution design meetings even though they clearly don't have solution design experience or development experience Is constantly involved in team management related work e.g. resourcing of the team etc Does not write/is not able to write user stories and acceptance criteria at a level of detail for the team to design and code effectively Spends more time on the first points than actually doing requirements elicitation   What have the team said:  They have raised the need for acceptance criteria and scenarios on numerous occasions  They have said that the requirements are not clear and do not provide enough to 'go on'  They have said they do feel 'managed' by the PO (during 1on1's with me)  My question is where should I go from here. I am at the end of my tether.  I was thinking my next step should be to talk to his manager and explain that I think he would make a very good traditional manager or project manager but I cannot see any qualities useful for a Product Owner.",
+        "score": 8,
+        "creationdate": "2018-10-05 07:50:37.287000",
+        "viewcount": 1408,
+        "tags": "<scrum><agile><scrum-master><product-owner>",
+        "answercount": 3,
+        "favoritecount": 1,
+        "userId": 32613,
+        "comments": []
+    },
+    {
+        "id": 31094,
+        "title": "How to handle a Sprint completed ahead of time?",
+        "body": "Let's say we have a sprint of 2 weeks. In that sprint, the IT team has to implement some issues or features. How can we handle the case where the team finishes all issues/features ahead of time? Do we pull tasks from the next sprint to the current one? Do we start a new sprint with some extra days in it in order to compensate for the days that were earned? Or we see the IT team playing games on the internet until the sprint ends and a new one starts? I know that when there is not enough time in the sprint for the tasks to be implemented, some of them can go to the next sprint, but what about the opposite (when the tasks were implemented faster)?",
+        "score": 1,
+        "creationdate": "2021-02-05 07:50:18.123000",
+        "viewcount": 142,
+        "tags": "<scrum><agile><sprint><sprint-planning>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 42582,
+        "comments": [
+            {
+                "text": "You are right @TiagoCardoso. It is almost the same and the link you provided have a very nice interesting answer. I am not project manager and as such my question was not so much clear as the one you posted. Although the answers here helped me clarify some things, if you thing so I can delete the question.",
+                "score": 0,
+                "userId": 42582
+            }
+        ]
+    }
+]
