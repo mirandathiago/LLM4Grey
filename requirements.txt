@@ -1,0 +1,9 @@
+python-dotenv
+inquirer
+pyfiglet
+colorama
+termcolor
+psycopg
+lxml
+beautifulsoup4 
+tqdm
