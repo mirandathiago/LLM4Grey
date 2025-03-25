@@ -1,0 +1,905 @@
+[
+    {
+        "id": 1264,
+        "title": "What criteria should be considered when deciding to do work which goes beyond project scope?",
+        "body": "Answering my recently asked question whether to \"deliver results when finished significantly prior to the agreed deadline\", Smandoli suggested to fill the slack with \"Look for places to exceed expectations, exceed the spec.\" I understand that deciding whether to do work which goes beyond defined project scope depends on a number of factors. Which ones do you consider to be particularly important to make a qualified decision?",
+        "score": 5,
+        "creationdate": "2011-03-26 16:34:23.687000",
+        "viewcount": 160,
+        "tags": "<politics><customer-satisfaction><relationships>",
+        "answercount": 6,
+        "favoritecount": null,
+        "userId": 699,
+        "comments": [
+            {
+                "text": "@jmort253, yes I intentionally open a new question instead of commenting on Smandoli's answer on the previous question, because in my understanding the new question is about a wider scope and therefore deserves a separated question. Also, naturally I added part of my understanding of that topic as well, in order to give a hint into which direction my question is targeting. Do you think the question would be acceptable had I left the three bullet points?",
+                "score": 1,
+                "userId": 699
+            }
+        ]
+    },
+    {
+        "id": 1539,
+        "title": "How to measure quality in a software development project?",
+        "body": "Quality is one of the four key project constraints, which need to be planned and controlled by a project manager during the entire project lifecycle. In order to plan and control it the PM, first of all, has to understand how to measure it. What are possible and most effective methods of measurement of quality in a software development project?",
+        "score": 21,
+        "creationdate": "2011-04-06 10:33:18.243000",
+        "viewcount": 50297,
+        "tags": "<quality><quality-management>",
+        "answercount": 7,
+        "favoritecount": 10,
+        "userId": 91,
+        "comments": []
+    },
+    {
+        "id": 4037,
+        "title": "Do you know any companies that rotate developers between different projects on regular basis?",
+        "body": "I work for a smallish outsourcing company of about 30 people, nearly all of them developers. At any given moment we have 6-9 projects in development for various clients. Most of the projects are developed by 3 programmers and one tester and last around 6 months, but we have also some long-running projects lasting up to two years. We have been practicing Agile methodologies for a couple of years, and now we use Kanban more and more. Most of our developers are highly-skilled and while we have only a couple of \"real TDD\" practitioners, everybody does at least \"test-after\". We don't pair a lot, but instead rely on hallway testing and code reviews. The problem we have encountered is that after having been acquired by a corporation, which has in the past outsourced all of it's programming work to India, we now handle multiple projects with very significant technical debt, almost all of which will probably run for quite a long time. This is a problem, because morale of the people working on those projects is very low (some people already quit), and the programmers are getting burned out quickly. It has been said that it feels like a prison sentence to be a part of those teams, especially with no end in sight for those projects. We are looking for a way of increasing morale of the unlucky employees who have to handle the worst projects. One of our ideas is to start rotating people regularly between projects, so that even if someone ends up in a really nasty project, they know that they only have to endure this for a couple of months, and not as long as they work for our company. We have looked into this idea before, because we think it might be a good way to improve knowledge transfer, shared code ownership and encourage pair programming, but now we have a much stronger incentive to pursue this. I know of two companies that practice rotating people among projects: Relevance and Pivotal Labs. Relevance has posted an entry on their blog about rotating people, and Pivotal hints about it in some job offers and it was mentioned on Quora. Do you know any other companies that apply this technique (I'm especially interested in any experience reports)? Is it a good or a bad idea in our situation?  EDIT: After reading the responses, I have come to the realization, that I might have over-stressed the burnout/prison-projects angle a little bit. In fact, as I have mentioned above, we have had the idea of rotating people regularly before, and the reason for that is that we expect this to:  Promote knowledge-sharing, because people who are experts in various fields (DB, JavaScript), will have chance to work with a larger subset of other employees. Improve code quality through continuous code review: when a new person enters a project, it will be a fresh set of eyes looking at the code and pointing out the faults in the design/code itself. Foster collective code ownership: if people are expected to rotate off the project, the code, which they wrote will be maintained by other people. In order to not be left with maintaining a completely unknown, \"untouchable\" piece of code written by someone else, the developers will have to share the responsibility for various parts of the system. Foster pair-programming: I believe that pair-programming is a good way of developing software. In a team, which periodically welcomes new members, pair-programming is the most effective way of introducing new people. If programmers spend a lot of time pair-programming with new people, hopefully they will be more likely to pair program with other team members on normal tasks.  I am really interested in learning about other companies that have tried rotating people across projects. Has anyone worked in an environment like that or has heard about some company practicing this?",
+        "score": 9,
+        "creationdate": "2011-12-07 12:34:31.320000",
+        "viewcount": 1167,
+        "tags": "<software-development><motivation><project-team>",
+        "answercount": 3,
+        "favoritecount": 2,
+        "userId": 2670,
+        "comments": []
+    },
+    {
+        "id": 4194,
+        "title": "Training methods in small team",
+        "body": "I'm working for a startup company where there are only a few employees (5 programmers). I'm senior in terms of my time with the company and experience even though I'm only 23 years old. I have no experience in leading a team other than the college project groups. Since I'm most experienced, I was told to train the newcomers and one of them was assigned to my team for a project. Can any one tell me how can I train them while handling project pressure myself? I want to share my knowledge with them but at the same time I want to avoid spoon feeding them or let them go astray in programming (became weak or clueless). What is the best approach to interact with them?   Boss them Treat them as peers Something else  I expect to manage more than a single person soon so I look for methods which would work in the long run and not only in this specific situation.",
+        "score": 16,
+        "creationdate": "2011-12-28 10:17:03.920000",
+        "viewcount": 536,
+        "tags": "<team-management><training><product-management>",
+        "answercount": 5,
+        "favoritecount": 6,
+        "userId": 2799,
+        "comments": []
+    },
+    {
+        "id": 4635,
+        "title": "With Scrum, how do you keep from dropping the little things?",
+        "body": "We've moved our group's workflow to a scrum-based approach, with a lot of success. We're getting things done, people are more engaged, and we're more focused on our actual user community's needs. Because we needed to work on processes over tools, we're using physical cards on a backlog board and a task board. This works pretty well, although we're probably going to move to an electronic version eventually as we're starting to get more remote team members. This works very well for \"right sized\" user stories. But how do we deal with things that are really too small for a user story? Sometimes these are bugs/defects, or sometimes they're just really small feature requests or enhancements. For example, our Gitorious installation appends a superfluous s  to repository names when one makes a clone. It'd be nicer if it didn't. One could write user stories for every thing like this (which is what we do), but a) it feels overweight and not at all \"agile\" and b) such stories inevitably get scheduled below bigger, more important things, even though they're often low-hanging fruit (small effort for small but noticeable results). Or, one could have a separate issue tracker. However, that suddenly goes from one place to look for work \u2014 the scrum task board \u2014 to having two tools. Is there a good way to integrate these things so they don't act in opposition to each other? Or, one could just leave these things out of the process and shout them at each other across the room. There's a serious risk of this becoming the de facto process if I don't fix this. When this works, it's basically fine, but it's problematic because a) it can disrupt productivity when people get distracted from their other work by unscheduled interruptions and b) when these issues aren't immediately fixed, they can (as the question title) get dropped.",
+        "score": 15,
+        "creationdate": "2012-02-14 13:55:37.613000",
+        "viewcount": 558,
+        "tags": "<scrum><process><tasks><defect-fixing>",
+        "answercount": 6,
+        "favoritecount": null,
+        "userId": 2124,
+        "comments": []
+    },
+    {
+        "id": 5037,
+        "title": "What do to if a signed project got cancelled?",
+        "body": "I have a X dollars project under my belt. It supposed to start on Monday. But client refused to go forward and I waited for them for a week. How do software consulting firms deal with this situation? This is a contract project and the client cannot pay me due to resources. For suppose 80 hours.",
+        "score": 10,
+        "creationdate": "2012-03-07 21:02:12.747000",
+        "viewcount": 725,
+        "tags": "<time-management>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 3256,
+        "comments": [
+            {
+                "text": "Please see my edit.",
+                "score": 0,
+                "userId": 3256
+            }
+        ]
+    },
+    {
+        "id": 6698,
+        "title": "Agile/scrum - tracking time spent in current iteration towards stories from the next iteration if all current stories are done",
+        "body": "Our team has been slowly trying to go towards agile, and like many other teams, up to this point, the question of \"what do we do when we actually finish all commitments?\" is fairly new and foreign to us. But lately it actually came up once or twice. The reason I wanted to ask this board on good practices is that we are using Rally for agile project tracking and one thing the tool does is keep track of hours and points. In order to improve our estimates, I wanted to do something with this data and provide feedback to the team on how we did in the past, by comparing metrics that show estimated task hours vs. actual task hours vs. assigned story points. This seems like it could work great as long as developers work up until the last day of the iteration or if they are late with their deliveries. Then \"actual hours\" reflects exactly what went into each story. However, what should we do when we finish early but next story would take too long to complete so we can't pull it into the current iteration? I know some people are advised to simply take the time for general cleanup/housekeeping like updating automated tests or documentation, but for sake of argument, let's say the best value to the team and the company in this specific scenario would be to immediately start working on the next story. If we are not committed to the next story, actual hours aren't tracked anywhere. And in the next iteration when we do commit, we will only identify estimated/actual hours which will go into the next iteration, at which point the work might already be 25%-50% complete.",
+        "score": 11,
+        "creationdate": "2012-10-01 20:58:42.290000",
+        "viewcount": 1581,
+        "tags": "<scrum><agile><estimation><scheduling><rally>",
+        "answercount": 4,
+        "favoritecount": 1,
+        "userId": 1948,
+        "comments": []
+    },
+    {
+        "id": 11204,
+        "title": "How can the economic efficiency of a scrum team be measured?",
+        "body": "I'm given the task to develop a measurement on how efficient our team is within our current development process (scrum). The measurement has to be done for the complete team not for individuals. My idea was to use the count of team members and velocity. But because velocity is a per team measurement the result will not be something useful. Any ideas?",
+        "score": 1,
+        "creationdate": "2014-03-26 14:23:14.800000",
+        "viewcount": 210,
+        "tags": "<scrum><measurement>",
+        "answercount": 2,
+        "favoritecount": null,
+        "userId": 8641,
+        "comments": []
+    },
+    {
+        "id": 11479,
+        "title": "Is it correct to split user stories by user types?",
+        "body": "I have two user account types: free and premium. Free users can upload one file per day. Premium users can upload unlimited numbers of files per day. Is it correct to split user stories by user types, as in the examples below?   As a Free User I can upload 1 file per day.   As a Premium User I can upload unlimited files per day.",
+        "score": 0,
+        "creationdate": "2014-05-05 13:11:49.413000",
+        "viewcount": 129,
+        "tags": "<user-stories>",
+        "answercount": 3,
+        "favoritecount": null,
+        "userId": 2847,
+        "comments": []
+    },
+    {
+        "id": 11771,
+        "title": "How to combine continuous delivery cycle with iterations?",
+        "body": "I'm the leader of a small team (a few programmers, plus product manager) practicing continuous delivery. The development stages for features are:  Coding: A programmer prepares a branch with the feature, up to a specification. The feature is reviewed by Product Manager at the end of this stage. Code review: Implemented with merge requests. A fellow programmer looks at the code, points out issues, programmer works to fix them. When everything is OK, the feature is integrated to main development branch. Deployment: after passing the automated tests suite, the contents of main branch gets pushed to production servers. This currently happens twice a week.  For planning our work, we're using 2-week iterations - Product Manager proposes feature to work on, we estimate them, and based on that allocate them to programmers for the iteration. My questions are:  During an iteration, what should we commit to? Right now we're saying that by the end of iteration, the coding (stage 1) has to be finished. This is because there might be some delay between coding and review (since the reviewer is also working on something). I'm a bit hesitant to include all 3 stages as required to finish, because this means by the end of iteration, everyone is working on code review, instead of the features following their development cycles unconstrained.  How much should be planned regarding delivery date? With the current setup, we can only say that the feature should be deployed sometime during the next 3 weeks (iteration + a window for code review and deployment). Can we do better? Should we?  Because of the above: how much should we plan regarding work ordering?   Should we, for instance, say during which days which features will be worked on, and reviewed? Or specify a strict order in which the features will be worked on during an iteration? Or give the order as priorities, but allow more freedom? Again, I don't want to constrain the programmers too much here. Detailed up-front planning doesn't sound very useful for me, and the actual ordering of work is something I'd rather give freedom at as well (perhaps with the priorities as a soft guideline). But I'm not sure if that makes the delivery date much more certain.",
+        "score": 3,
+        "creationdate": "2014-06-19 09:08:10.117000",
+        "viewcount": 288,
+        "tags": "<agile><planning>",
+        "answercount": 2,
+        "favoritecount": 3,
+        "userId": 9042,
+        "comments": []
+    },
+    {
+        "id": 11902,
+        "title": "Calculating a running sum of subtask cost amounts",
+        "body": "How can a Summary task reflect a running sum of subtask input amounts?",
+        "score": -1,
+        "creationdate": "2014-07-08 19:35:20.567000",
+        "viewcount": 12562,
+        "tags": "<ms-project>",
+        "answercount": 1,
+        "favoritecount": null,
+        "userId": 10501,
+        "comments": []
+    },
+    {
+        "id": 12091,
+        "title": "How can we stop developers from working on stories that are not planned into the current sprint?",
+        "body": "ORIGINAL QUESTION We carefully plan out a sprint and decide which stories should be worked on however some developers are working on stuff outside of this planned work. This is undermining the whole process.  What techniques can we use to encourage/enforce developers to stick to the planned stories? UPDATES:   Having talked to the developers we know they are working on the stories because they find them interesting or consider them important.  We have tried no techniques so far except asking/telling the developers not to.  Developers are working on both planned and 'personal' stories in parallel. The planned stories are sometimes completed but often not. The non-planned stories being worked on are legitimate pieces of work, just ones not prioritised into the current sprint.  The extra tasks being worked on are not refactoring. We consider refactoring to be part of a story, not a separate story in itself. http://xprogramming.com/articles/refactoring-not-on-the-backlog/ It is only a small number of developers in the team that are doing this, and they are a mixture of experienced and junior developers.  We have contractors on the team however it is the permanent staff that are going off-piste. The team has been working together for a few years although there are some new members of the team. We recently moved from Kanban to Scrum. We are in our 2nd Sprint. The developers in question have a history of going off-piste. I guess the original question might have been better worded: \"In the Scrum methodology, what techniques can we use...?\" The issue has been raised in the retrospective and the problem persists",
+        "score": 13,
+        "creationdate": "2014-08-06 16:30:39.480000",
+        "viewcount": 3696,
+        "tags": "<scrum><agile>",
+        "answercount": 6,
+        "favoritecount": 1,
+        "userId": 11758,
+        "comments": [
+            {
+                "text": "@Iain9688 I've updated the question.  Thanks.",
+                "score": 0,
+                "userId": 11758
+            },
+            {
+                "text": "@ashok I deliberately left roles out of the question as I wasn't sure if that was relevant. In this particular situation however I am the Scrum master.",
+                "score": 0,
+                "userId": 11758
+            },
+            {
+                "text": "@AndSoYouCode We know this because we have asked them. I'll update the wording as it was misleading/unclear, thanks.",
+                "score": 0,
+                "userId": 11758
+            }
+        ]
+    },
+    {
+        "id": 14164,
+        "title": "Communicating change impact to clients",
+        "body": "I am working with a technical client ( means he himself developed that website from  some other developer by his instructions and code is now code is completely messed up ) and he has mentioned in the main document that he wants to change the raw code into a class based code and remove deprecated code and and performance issue of complete website code However when we make changes the client angrily asks why we are cleaning up the code and pushes us to do only the tasks which they assign. Actually we are doing only changes in those file but code is interrelated. Suppose he said to change all mysql statements to PDO (PHP Data Objects as an abstraction layer used for accessing databases). We have two options. Either we create PDO connections in every page or change the db object from config file. If we change in the config file then it will stop working with all other pages where mysql code is running. So my question is, how can we tell the customer that the changes we are doing have an impact on overall project so they will take time?",
+        "score": 2,
+        "creationdate": "2015-02-06 05:57:49.927000",
+        "viewcount": 552,
+        "tags": "<change-management><project-management-style>",
+        "answercount": 3,
+        "favoritecount": null,
+        "userId": 1355,
+        "comments": []
+    },
+    {
+        "id": 14345,
+        "title": "Any tips on how to 'sell' the necessity of dealing with technical debt to nontechnical stakeholders?",
+        "body": "A number of stakeholders do not quite understand the necessity of dealing with technical debt preferring new features on top of not very maintainable code. Development is sometimes seen as kids who just want to play the coolest toys. Can anyone suggest anything which will make the job of  'selling' the necessity of dealing with technical debt as a main priority? Any youtube videos, articles, books recommendations and links on success stories would be very appreciated.",
+        "score": 27,
+        "creationdate": "2015-02-25 10:09:34.787000",
+        "viewcount": 2310,
+        "tags": "<scrum><agile><planning><technical-leader><sales>",
+        "answercount": 6,
+        "favoritecount": 7,
+        "userId": 16159,
+        "comments": []
+    },
+    {
+        "id": 15261,
+        "title": "Agile in enterprise: How to represent the requirements of non-business stakeholders?",
+        "body": "I currently work on a large scale software project in a large company. We follow an agile approach for development; however, due to the size of the the company there are several stakeholders that normally are not spoken about or simply assumed to be the developers in the Agile process. Stakeholders example:  Architecture: Defines enterprise architecture guidelines  Development: Defines enterprise development guidelines  Product Design: Defines enterprise branding and design guidelines  IT Security: defines enterprise IT security guidelines  Operations: 24/7h operations support  Customer Support: 24/7h client support  Rollout: Rollout of the application per client ( client specific configurations )   Should I use User stories?  As IT security, I want to ... or Debt tasks?  Tech debt - Code needs to be refractored  ISO debt - Application must follow ISO1234  Rollout debt - Configuration automation  Operations debt - Special tool to manage data cache   Pratical example:  As application management, I want to be able to invalidate the cache, so the application is cleared of corrupt data.  The above doesn't really make sense to me as a business value user story. It represents more a maintenance required feature.  Is there any common practice on how to integrate the requirements of these stakeholders in user stories?  What is the best way to express the requirements from these stakeholders? They are functional yet not business value adding requirements.",
+        "score": 8,
+        "creationdate": "2015-06-21 10:01:15.783000",
+        "viewcount": 1082,
+        "tags": "<agile><user-stories>",
+        "answercount": 2,
+        "favoritecount": 1,
+        "userId": 17552,
+        "comments": [
+            {
+                "text": "Thanks for the link, it was clarifying. I think that at the end of the day, most of these \" non-user\" user stories, map tos ways of managing the debt created by a business user story.",
+                "score": 0,
+                "userId": 17552
+            },
+            {
+                "text": "To add value we have to create waste. user stories are born to manage  this waste. For example: A user story to build a tool to manage the caching system implemented in a business feature",
+                "score": 0,
+                "userId": 17552
+            },
+            {
+                "text": "also related: http://pm.stackexchange.com/q/14189/17552",
+                "score": 0,
+                "userId": 17552
+            }
+        ]
+    },
+    {
+        "id": 16020,
+        "title": "Hardening Sprint - Manna from Heaven or a Witches Brew?",
+        "body": "In Dean Leffingwell's Scaled Agile Framework there exists the concept of a hardening iteration E.G. after three sprints of two weeks duration, we have a hardening sprint of one week. In this short sprint we can pay back some of the technical debt accrued over the previous sprints, ensure more rigorous integration testing is carried out and the set up, tear down procedures are quality reviewed. Time can also be factored in for any training requirements that were uncovered over the prior three sprints. Admittedly, if we have a mature DOD on the delivery of a sprint work item there should be a decent level of quality but sticking to the principle that we deliver only what is required to satisfy the criteria of each story will eventually lead to known duplication in the code base. Good developers will naturally want to improve their code base so having a hardening sprint will ensure they can concentrate on moving WIP in the main sprints but the address any wider re-factorings periodically. I recently attended a conference where Rachel Davies of Unruly Software explained that their XP developers have every Friday as Golden Time where they are free to re-factor the codebase and learn new technology. That works out at one day in 5 as opposed to the one day in seven by having 3*2 week sprints plus a hardening sprint. I believe this is a good approach to paying the technical debt in a managed fashion. Technical debt will become more expensive to repay the longer the project continues in the same fashion as a story becomes more costly to change once we have delivered. I know the idea of a hardening sprint is anathema to agile purists but I think it works well in our pragmatic scrumban approach. I think the issue is similar to that around the validity of having a Sprint Zero which ruffles a few feathers. So, Question is: Is a Hardening Sprint a good idea, if not why and how would one address the concerns outlined above?",
+        "score": 10,
+        "creationdate": "2015-08-28 11:13:02.807000",
+        "viewcount": 1036,
+        "tags": "<scrum><sprint><extreme-programming>",
+        "answercount": 3,
+        "favoritecount": 0,
+        "userId": 19267,
+        "comments": []
+    },
+    {
+        "id": 16299,
+        "title": "New to Project Management with a new team on a short deadline",
+        "body": "I have just been put in charge of a brand new team of a developer and designer, the first of each for our company. I've never had this role before, but I do have some design, development, and management experience. This company has a been selling its product for over a year now. The development was outsourced and as such, the development process is a new concept to this company. In addition, the design that did exist in the company prior was only graphically focused as opposed to user focused. There is a long list of outstanding bugs and technical debt on the backlog and there is no real design or researched foundation for the product that exists today. I have a limited amount of time to turn this product into something usable by the clients we have been trying to sell to. What should be the first thing I tackle? How do I handle this role while still trying to figure out this role. How do I facilitate a brand new team in working together?",
+        "score": 2,
+        "creationdate": "2015-09-26 06:39:28.010000",
+        "viewcount": 180,
+        "tags": "<team-management><planning><software-development><resource-planning>",
+        "answercount": 2,
+        "favoritecount": null,
+        "userId": 20553,
+        "comments": []
+    },
+    {
+        "id": 17145,
+        "title": "How to manage very small, easy tasks in Agile?",
+        "body": "Let's say you have a bug on your website. Your developer needs to fix some CSS or something. He estimates it will take him one minute to fix. What is the best way to manage these kinds of tasks? Do you create a User Story for it and create a task for it? The task is so tiny and minuscule that it's actually more work to create stories and tasks for it than to actually do it. This seems very inefficient, even though it's important to track and manage development of small fixes. How do you best deal with small, one-off tasks that don't take long to accomplish?",
+        "score": 9,
+        "creationdate": "2016-01-13 17:29:31.777000",
+        "viewcount": 1937,
+        "tags": "<agile><user-stories><tasks><tracking><bugs>",
+        "answercount": 8,
+        "favoritecount": 2,
+        "userId": 21787,
+        "comments": []
+    },
+    {
+        "id": 17313,
+        "title": "Team consistently over commits",
+        "body": "I'm a developer on a small-ish team. 1 DBA, 2 Senior Devs, 2 Juniors, and 1 QA (sometimes, most of the time we do our own QA). No PM at the moment. We do mostly maintenance/upgrades to a large legacy system right now, but will likely split the team soon so a group of us can focus on new product development.  We're a relatively new team that's been together for about 6 iterations now (3 months of 2 week iterations). Although we're using two week iterations, we're not down right time boxing. If a task is in progress, it stays in progress as it was already deemed the highest priority item. The iteration is more of a way of building in a time to retrospect, course correct, groom the backlog, and measure our capacity. It's Kanban with some ceremony stolen from Scrum.  So, this all works fine for this maintenance project, but with the new product development, we're going to have to really commit to getting the tasks done that we say we will. The problem is that the team is consistently overly optimistic during our planning session. We've never gotten all of our stories completed, regardless of the fact that we know exactly how much work we can do, on average.  We're able to consistently complete 13 stories in an iteration, but the team keeps insisting on scheduling 15-18. Any advice on how I can get them to understand the importance of scheduling to our capacity and committing to our stakeholders?  I'm sure someone will ask about story size/points. I don't quite trust scheduling to average points yet. The number of points completed in an iteration vary too wildly yet for scheduling purposes.",
+        "score": 2,
+        "creationdate": "2016-01-31 13:20:03.773000",
+        "viewcount": 215,
+        "tags": "<team-management><estimation><schedule>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 21039,
+        "comments": [
+            {
+                "text": "It's my first Q here, I'd appreciate help with tags/phrasing of the question.",
+                "score": 0,
+                "userId": 21039
+            }
+        ]
+    },
+    {
+        "id": 17350,
+        "title": "Can planning documents be retroactively produced to fit the product that's been built?",
+        "body": "I am currently implementing an Android application and am struggling to do my class and sequence diagrams, predominately due to the fact that the specifications are too abstract and vague. I was thinking of doing the implementation phase and then to reverse-engineer my work to produce the planning documents. My question is, is this allowed and advisable?",
+        "score": 1,
+        "creationdate": "2016-02-03 13:30:18.737000",
+        "viewcount": 91,
+        "tags": "<agile><software-development><documentation><waterfall><specification>",
+        "answercount": 2,
+        "favoritecount": null,
+        "userId": 22078,
+        "comments": [
+            {
+                "text": "@MarvMills For the record this is project management! I am behind schedule on a project and a potential way was to implement the app first and then to go back to the design phase - but that's ok I know what I am doing. I don't know why I even posted here in the first place when I am going to be greeted like this.",
+                "score": 0,
+                "userId": 22078
+            }
+        ]
+    },
+    {
+        "id": 17395,
+        "title": "Should stories be properly estimated before being pulled into an ongoing sprint?",
+        "body": "There are two common reasons why stories or bugs get pulled into a sprint in Scrum (where I work):  Issue was triaged (usually critical/blocker field issues) Sprint was underestimated, and thus items from the backlog get pulled in to keep people busy  In both cases, most items (especially bugs) do not have a story point estimate or time estimate. The first question is: Is it important to have story point estimates on these items before they are brought into an ongoing sprint? And if so, when and how should this estimation take place? We only have sprint planning every 2 weeks (our sprints are two weeks) and I'm assuming it's unproductive to schedule a sprint planning meeting for every bug we bring in. We use JIRA + JIRA Agile as our tooling to track Scrum sprints. The only functional reason I can think of needing proper estimation for are the reports. Also I worry our velocity will be negatively impacted if we pull in items into the sprint without an estimate.",
+        "score": 4,
+        "creationdate": "2016-02-08 17:13:02.773000",
+        "viewcount": 1203,
+        "tags": "<scrum><agile><sprint><story-points>",
+        "answercount": 4,
+        "favoritecount": 1,
+        "userId": 13583,
+        "comments": []
+    },
+    {
+        "id": 17701,
+        "title": "Should velocity increase with time?",
+        "body": "Some scrum masters are concerned with \"bumping up\" a team's velocity during a sprint, as if a higher velocity is better. But points are a relative measure of the work that a team needs to do for feature X; they are not high or low, they're just more or less than some other feature the team arbitrarily chose as a point of reference. What's important is that you know what your velocity is, however many points that is. If points are effort, you don't make a greater effort with time. You make the same effort, but it is more productive. So a story that was estimated at five points when the team first formed could eventually be estimated as three or two points as the team increases its skills. Is that correct? I don't see a consensus on whether points measure complexity or effort, but either way it seems to me that as time passes, the perceived effort or complexity of a task will go down and you will be able to fit more of them in a sprint, thus keeping your velocity constant.",
+        "score": 17,
+        "creationdate": "2016-03-12 14:35:34.863000",
+        "viewcount": 4344,
+        "tags": "<scrum><estimation><story-points><velocity>",
+        "answercount": 4,
+        "favoritecount": 6,
+        "userId": 13325,
+        "comments": []
+    },
+    {
+        "id": 18254,
+        "title": "Sales team keep on setting aggressive deadlines",
+        "body": "So I had a quick meeting today, my Boss who is leading the sales team has given me one sprint to deliver a shopping list of work for a end client.  I have told him that a week is not enough time to deliver that amount of work and properly test everything. Only in the best case scenario, if everything works fantastically well, it will be delivered. I am currently facing the following issues:  My boss doesn't seem to care and will just set the aggressive deadlines anyway because it's an opportunity to get business in. My boss is not respecting the fact that my team are contractually obliged to work 40 hours a week (UK), he just wants this level of work delivered in a sprint even if it means a lot of overtime.  I have warned him about:  Tech debt resulting from very aggressive deadlines and being able to create a contingency in my project management. I have repeatedly told him that we can't let clients dictate our sprint cycles this way, but his argument is that if we are not aggressive enough with timeframes we will lose business.  How can I handle this situation.",
+        "score": 1,
+        "creationdate": "2016-05-12 10:38:19.657000",
+        "viewcount": 369,
+        "tags": "<scrum><project-team><sales>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 20871,
+        "comments": [
+            {
+                "text": "Project manager, where the problem is happening is that the sales team are setting my deadlines for me without getting me involved. I can understand why, because they are under pressure to get sales so are promising unrealistic deadlines to drive sales.",
+                "score": 0,
+                "userId": 20871
+            },
+            {
+                "text": "@NathanCooper I am trying very hard to maintain scrum practices, facing some resistance.  I know that it is working extremely well (when my sprint cycles are not disrupted) because like this week we had a sprint, and my team helped me deliver high quality work ahead of schedule.",
+                "score": 1,
+                "userId": 20871
+            },
+            {
+                "text": "I am also the scrum master here.",
+                "score": 0,
+                "userId": 20871
+            }
+        ]
+    },
+    {
+        "id": 18298,
+        "title": "What to do when the backend work is much larger than the frontend?",
+        "body": "On past projects, I've seen a common theme. A particular feature will require very simple front end work (eg. make a button on a screen that says \"submit\"), but there will be a large amount of work on the backend. If we have say one backend developer and one front end developer, the backend dev finds themselves often doing work that doesn't get feedback, is behind the front end by several days or more, and so on.  Some solutions would be to either slice the story in a more even vertical between the two types of work, to go less \"in-depth\" with the backend work, or to work to make your developers cross-functional between the back and front end work, but I haven't had a situation yet where that's really a reasonable solution. Is there anything else that can be done?",
+        "score": 10,
+        "creationdate": "2016-05-18 16:29:02.070000",
+        "viewcount": 3831,
+        "tags": "<scrum><process>",
+        "answercount": 3,
+        "favoritecount": 3,
+        "userId": 19375,
+        "comments": [
+            {
+                "text": "unfortunately in reality, this isn't the case",
+                "score": 1,
+                "userId": 19375
+            }
+        ]
+    },
+    {
+        "id": 18708,
+        "title": "Identifying and considering the important factors to calculate a persons Capacity for a Sprint?",
+        "body": "My team works in a 3 Weeks sprint, and accordingly we calculate the capacity of Team member based on his or her planned holidays and company Vacations.  But we cannot deny any unplanned / Sick leaves, Unplanned meetings and Training. Different Inter & Intra team communications which may be important for my own project or other teams. Knowledge sharing is an important core value of a growing organisation that encourages open cross team interactions.   Different Sprint Ceremonies also take some time of the team members during these 3 weeks. What points are important to be considered calculating the Capacity of the Team members considering they spend 8 hrs in the office.",
+        "score": 5,
+        "creationdate": "2016-07-21 04:26:23.303000",
+        "viewcount": 532,
+        "tags": "<scrum><team-management><sprint><project-management-style><team-capacity>",
+        "answercount": 5,
+        "favoritecount": 0,
+        "userId": 13556,
+        "comments": []
+    },
+    {
+        "id": 18724,
+        "title": "Can you make a custom timeline?",
+        "body": "Can you make  a custom timeline by corporate periods? or add the periods over the dates? Our company refers to time in Periods where each period has 4 weeks. Is it possible to remove the dates or add the period distinction maybe above the timeline? Thanks, Lori",
+        "score": 0,
+        "creationdate": "2016-07-26 15:18:19.387000",
+        "viewcount": 441,
+        "tags": "<ms-project><gantt><timeline>",
+        "answercount": 1,
+        "favoritecount": null,
+        "userId": 24207,
+        "comments": []
+    },
+    {
+        "id": 20142,
+        "title": "How to convince my boss to let go an ineffective programmer",
+        "body": "I was hired as a project manager / senior programmer to manage an internal group of programmers in a company. I'm responsible for coordinating 12 programmers. My boss has no programming background, how can I convince him to let go of an ineffective programmer? My boss's argument is that the programmer knows that he is not very good, but because of that he is cheap. Most of his code must be cleaned up. Today I found code he committed which was filled with difficult-to-understand and outright misspelled content (which would increase cost of maintenance of the code later on): public static bool isDivisibleBy(this int num, int numnum)     {         var tmp = (float)num / (float)numnum;         var res = tmp.ToString();          if (res.Contains(\".\"))             return false;         else             return true;     }      public static int reminder(this int num, int numnum)     {         var absNum = Math.Abs(num);         var absNumnum = Math.Abs(numnum);          //speedup         if (absNum.isDivisibleBy(absNumnum))         {             return 0;         }         else         {             var tmp = absNum / absNumnum;             var tmp2 = absNum - (absNumnum * tmp);              var tmp3 = tmp - tmp2;              //sign             if ((num > 0 && numnum > 0) || (num < 0 && numnum < 0))             {                 return Math.Abs(tmp3);             }             else             {                 return Math.Abs(tmp3) * -1;             }         }          return 0;     } }",
+        "score": 0,
+        "creationdate": "2016-09-20 21:50:26.573000",
+        "viewcount": 233,
+        "tags": "<team-management><project-team>",
+        "answercount": 3,
+        "favoritecount": 1,
+        "userId": 25962,
+        "comments": [
+            {
+                "text": "@CodeGnome I agree that the code sample was irrelevant, but when I wrote the question I was aggravated. I'm responsible for all aspects of software development but not HR. I tried to explain to my boss the impact of his work and that not only me, but also my colleagues tried to train him but it does not work. We are finishing one important internal project with tight deadlines, my boss want to concentrate only on that project, I tested to remove him from the project and it boosted the productivity.",
+                "score": 0,
+                "userId": 25962
+            }
+        ]
+    },
+    {
+        "id": 21058,
+        "title": "Scrum: what to do if team member finishes their work early but can't help with other tasks",
+        "body": "...is not able to help the remaining member of the team with his tasks since he is not suitable for it? Currently, in this scenario I allocate a new item from the backlog that my scrum member is more suited to doing and leave the remaining item for the colleague who is still behind. This is with the full consent of the development team. Is this the correct approach?",
+        "score": 5,
+        "creationdate": "2017-02-15 16:14:41.613000",
+        "viewcount": 4947,
+        "tags": "<scrum><agile>",
+        "answercount": 7,
+        "favoritecount": 2,
+        "userId": 20871,
+        "comments": [
+            {
+                "text": "That's true. But in this instance I think he is right, other member of the scrum team is a backend developer, this one is a front end developer. The remaining task is a back end task, does it make sense for him to do it? Seeing the back end Dev will finish his current task soon...Probably not.",
+                "score": 0,
+                "userId": 20871
+            },
+            {
+                "text": "The remaining task is a follow up task from the tasks the back end dev is currently working on. So if say the front end developer jumps in (who is full stack), he will slow the whole process down from asking the back end developer a billion questions about how the previous tasks were coded. It is simply much quicker to wait for the back end dev to finish his work, then for the front end dev do the remaining task. All of the developers are full stack devs, but like many developers they either better at the front or back end which determines which type of tasks they work on during the sprint.",
+                "score": 0,
+                "userId": 20871
+            },
+            {
+                "text": "RubberDuck to add I know that there is a trend towards full stack developers, but I honestly believe at a certain point you can't be a jack of all trades. Learning back end development is more than just writing code in a back end language, it branches towards dev ops which moves towards server optimisation/scalability. On the other side, a highly trained front end developer knows how different front end frameworks work at a deeper level - angularJS, React, NodeJS etc and is more User experience oriented.",
+                "score": 5,
+                "userId": 20871
+            },
+            {
+                "text": "I'm sure work gets done, my team are full stack, but what I have found is that the quality of work is not always great if work is completed by somebody who is a back end specialist but has average front end skills (and vice versa). It's similar to playing a footballer out of position. Sure a striker can play in midfield but would he be as amazing as Zidane? Anyway, in this instance, I don't think it would have helped since the final story is dependent on an earlier story being completed by the back end Dev.",
+                "score": 1,
+                "userId": 20871
+            },
+            {
+                "text": "@GuySchalnat nothing can not be learned, the point is to become extremely good at something takes years to master. Do you think that a front end developer can turn into an experienced dev ops engineer that has years of experience scaling high traffic sites after a few days of training? By that at a very very good level, without making any rookie mistakes which could negatively impact production and live clients? Even if they are given the time to develop this skill, it is very difficult to be very knowledgable if their focus is all over the place.",
+                "score": 0,
+                "userId": 20871
+            },
+            {
+                "text": "@GuySchalnat I agree, but I think that it is much easier to have a cross functional team that has specialists. i.e. if the dev's strength is front end, his training should consist of learning different front end frameworks. If the dev is interested in back end dev, he should focus on diving deeper into dev ops. There isn't any point training people to deeply learn technologies that they are not interested in, you will get more out of them if they develop what they enjoy doing but at the same time can do basic development work in other areas.",
+                "score": 0,
+                "userId": 20871
+            },
+            {
+                "text": "@GrimmTheOpiner That describes the situation and is what I did in the end.",
+                "score": 0,
+                "userId": 20871
+            },
+            {
+                "text": "We do a lot of that at work. The issue is not being able to pick these skills up, the issue is whether the developer is interested in learning back end or front end technologies deeply. Many prefer one or the other, by forcing them to become a generalist from experience leads to poorer quality work if they are not that interested in it or have the knack. Front end is based on asynchronous coding, backend is procedural. The equivalent would be training a brain surgeon to become a heart surgeon, then expecting them to do a better job than someone who specializes in the heart and is passionate.",
+                "score": 0,
+                "userId": 20871
+            },
+            {
+                "text": "@Aarif totally agree. That was one of the reasons why I left my job as a developer before going into management. They were trying to train me from being a web dev to a C# desktop developer when I enjoy web development a lot more and did not want to move into developing desktop apps. Not because I couldn't pick it up but because I do not enjoy that style of programming. If people play to their strengths, morale will be high, and the quality of work would be higher. Full stack development is a fraud imo.",
+                "score": 0,
+                "userId": 20871
+            }
+        ]
+    },
+    {
+        "id": 21467,
+        "title": "How do you handle the relationship and responsibilities of `Product Owner` and `Scrum Master`?",
+        "body": "BACKGROUND  Onboarded with small startup ~15 people (40% Tech, 40% Sales, 20% Operations).   Everyone on team is onboard to start formalizing Scrum processes CEO drives vision of product, CTO executes on product, Operations formalizes Scrum process  QUESTION  How do you handle the relationship and responsibilities of Product Owner and Scrum Master when the CEO drives the vision of the product, the CTO is only worried about creating/executing on sprints, and the Ops team is tasked with collecting and formalizing requirements (obtained from sales & customer success teams) while officiating the Scrum process?  NOTE: The CEO specifically wants the Ops team to carry the majority of the responsibility for running the Scrum process (the CTO is in agreement). The CEO primarily wants to check in and help with User Story inputs (as the CEO is typically working with clients on partnerships and often receives feature requests).",
+        "score": 3,
+        "creationdate": "2017-04-13 16:02:17.907000",
+        "viewcount": 879,
+        "tags": "<scrum><agile><scrum-master>",
+        "answercount": 3,
+        "favoritecount": 1,
+        "userId": 28245,
+        "comments": [
+            {
+                "text": "@venture2099 - regardless, this doesn't change the subject of the question. If possible please provide valuable input",
+                "score": 1,
+                "userId": 28245
+            }
+        ]
+    },
+    {
+        "id": 21575,
+        "title": "How can we fix Sprint Planning meetings that are unproductive?",
+        "body": "Currently, we have split \"Sprint Planning Meeting\" into two parts:  SPM1 - This we do at the first day of the sprint. Product owner discusses the stories that have come into the current sprint from Backlog. All stories are already discussed in Backlog so we don't have much here. Mostly we discuss if something was pending or not clear in backlog. Post this meeting, PO makes sure that team has 100% clarity about the stories. SPM2 - This is a purely technical discussion. We don't include PO here. We break stories into the testable task so that team member gets broad overview what needs to be executed, what is expected of each task, facilitate parallel development.   The problems we are facing:  SPM1 Problem - There are fewer things to discuss. The team is not convinced on exact agenda of the meeting, they say why don't we discuss complete thing in Backlog only. (We have two backlogs in a sprint). The rest dependencies they suggested can be discussed via email etc. SPM2 Problem - We struggle with creating tasks from stories. We don't have clear idea to what depth things should be discussed. Should discussion include which code layer i.e BL,DAL,UI, what code would be put OR just how different systems would connect with each other i.e. breaking of functionality and leaving rest to the developer?  Some additional context:  Team size: 5 developers, 1 tester, 1 Product Owner Sprint length: two weeks  Average production experience of developers/tester: 2 years  Are we doing something wrong here? Should we split \"Sprint Planning Meeting\" into two parts like this, is it standard scrum practice? How should we resolve these problems?",
+        "score": 3,
+        "creationdate": "2017-05-06 06:29:57.883000",
+        "viewcount": 998,
+        "tags": "<scrum><agile><planning><meetings><sprint-backlog>",
+        "answercount": 3,
+        "favoritecount": 1,
+        "userId": 28471,
+        "comments": [
+            {
+                "text": "We follow 2-week sprint, do weekly backlog meetings (each of 2 hours). In the first backlog of the sprint, we discuss what would come in the first week of next sprint. In the second backlog, we discuss what would come in the second week of next sprint. As soon as sprint starts, we conduct SPM1 with PO to make sure there is no doubt left after the backlog discussions and the team is ready to execute the sprint.",
+                "score": 0,
+                "userId": 28471
+            }
+        ]
+    },
+    {
+        "id": 22052,
+        "title": "Time estimates and epics as releases",
+        "body": "My company is slowly adopting Scrum and I am doing my best to try to push us away from old Waterfall paradigms. However there are certain aspects I am finding quite hard to map in Team Foundation Server (TFS - visualstudio.com). The challenges I have at the moment are as follows. I am quite new to Scrum so any advice/critique is highly appreciated:  Investors require dates of high level estimates for certain milestones. For example, when should we expect a MVP (minimum viable product) to be ready. However, only tasks can be measured in hours. How can I provide the investors with a good set of proposed milestone dates in this case? I was told that Ideally, we should NOT use EPICS to represent a release. But since I see no other viable way of achieving this in TFS, I created an Epic called 'Minimum Viable Product' and added the features we want there. Thoughts? Finally, I got contradicting opinions on whether operational aspects of the product development should be included in TFS or not. Things such as 'decide on framework', 'set-up development environment', etc. One Scrum Master tells me we should NOT do this because Scrum should only list product deliverable, while the other told me told me that it is obvious that these things should be there as we need to account them in the product development.  Here is a screenshot of my backlog at this point:",
+        "score": 2,
+        "creationdate": "2017-07-24 09:48:30.683000",
+        "viewcount": 1032,
+        "tags": "<scrum><agile><tfs>",
+        "answercount": 3,
+        "favoritecount": null,
+        "userId": 29247,
+        "comments": []
+    },
+    {
+        "id": 22155,
+        "title": "How do I facilitate an effective planning meeting with a remote team?",
+        "body": "Background I am a scrum master for a team consisting of a PO, team lead and 3 developers. The team lead and 3 developers are off-shore in a totally different timezone. The PO is in the same office as me. Problems  Backlog grooming meeting is not working as they want to design the solution during the meeting. They want to estimate only when they understand and have largely designed the solution They want to take 'breaks' to discuss things in their native language They don't want to create user stories themselves which is fine, but they don't agree with the way the PO splits the stories either.  Question  How do I facilitate an effective planning/grooming/refinement/triage meeting effectively given this scenario?  I have taken a stab at solving my problem and this is what I came up with:  The PO and I do a user story mapping session just us 2 and come up with an initial set of user stories, and activities and then using the planning meeting to ratify and estimate with the team.",
+        "score": 4,
+        "creationdate": "2017-08-07 14:35:26.453000",
+        "viewcount": 467,
+        "tags": "<user-stories><scrum-master><product-management><product-owner><planning-poker>",
+        "answercount": 5,
+        "favoritecount": null,
+        "userId": 4364,
+        "comments": [
+            {
+                "text": "@BarnabyGolden the stories which are created by the PO are not, however the team does create stories as well which are more like technical tasks yes. I am trying to discover if they is management pressure I suspect there is.",
+                "score": 1,
+                "userId": 4364
+            },
+            {
+                "text": "Ok so you've taken those words out of context. If you read the whole thing you will see that I am referring to having a whole understanding of the solution before estimating.",
+                "score": 0,
+                "userId": 4364
+            }
+        ]
+    },
+    {
+        "id": 22361,
+        "title": "Organization structure in startup",
+        "body": "I was given the role of managing 5 different teams (iOS, Android, Backend, Firmware and Hardware (electronics)). All these teams consist of no more than 4-5 developers. There is also a QA team (2 engineers) and they are testing all the components, either feature or new firmware. All teams used to work separately with their own boards, backlogs, and sprints. Last month we started working on features dividing it on stories and moved iOS, Android, and backend to one dev board.  Currently, we have 1-2 dynamic feature teams, as some features can have different lifetime and require different developer pairs (for example, iOS+Android+Backend or FW+Backend, etc.) and individuals who are working on small tasks/tech debt or other items. I need to understand: - What would be the best organization structure of the above teams? Currently, I don't have any idea but to continue working as small feature teams. - How to estimate the productivity of each team member within one board where we are tracking either features or individual tasks. I understand that it would be better to track velocity of the TEAM, however, teams are kinda changing from feature to feature and not stable enough to trust the velocity. Thank you in advance!",
+        "score": 2,
+        "creationdate": "2017-09-06 14:30:00.743000",
+        "viewcount": 381,
+        "tags": "<team-management><planning><development-process><organizational-structure><process-improvement>",
+        "answercount": 1,
+        "favoritecount": 1,
+        "userId": 29751,
+        "comments": [
+            {
+                "text": "@Sarov thanks for highlighting this, I reviewed my question and removed one about the estimate, as I need to organize a team structure at the first hand.",
+                "score": 2,
+                "userId": 29751
+            }
+        ]
+    },
+    {
+        "id": 22716,
+        "title": "Should building microservices be a chore or a feature in scrum?",
+        "body": "We have recently started splitting a big monolith to individual microservices. Now the point of discussion is that under scrum methodology, building microservices should be a feature or chore? As per the scrum protocols, anything that doesn't provide direct value to users should not be a feature.",
+        "score": 1,
+        "creationdate": "2017-10-30 11:39:43.570000",
+        "viewcount": 825,
+        "tags": "<scrum><agile><project-management-style>",
+        "answercount": 3,
+        "favoritecount": null,
+        "userId": 30305,
+        "comments": []
+    },
+    {
+        "id": 22753,
+        "title": "What happens when the PBI in a sprint are done but the sprint timebox hasn't expired?",
+        "body": "I know that if PBI's cannot be completed within a sprint they can be re negotiated with the product owner  Now again a sprint cannot be shorted or lengthened then the agreed time box unless the sprint goal is obsolete. So how does the situation play out when the agreed definition of done is met before the time box expires?",
+        "score": 2,
+        "creationdate": "2017-11-02 13:02:42.623000",
+        "viewcount": 324,
+        "tags": "<scrum><sprint><product-owner>",
+        "answercount": 5,
+        "favoritecount": 1,
+        "userId": 30285,
+        "comments": []
+    },
+    {
+        "id": 22849,
+        "title": "Creating defect stories and inserting them immediately",
+        "body": "When we have a story which can pass but produces a defect to be fixed, the PO or BA involved will usually write a new story and immediately insert it into the sprint on the basis that it is important enough because it is a business priority. Is this proper for scrum? If not, what should be done?",
+        "score": 2,
+        "creationdate": "2017-11-14 13:41:34.843000",
+        "viewcount": 492,
+        "tags": "<scrum><product-owner>",
+        "answercount": 3,
+        "favoritecount": 1,
+        "userId": 29374,
+        "comments": []
+    },
+    {
+        "id": 22900,
+        "title": "Meeting format for defining our definition of done",
+        "body": "Can anyone recommend a format for facilitating a definition of done meeting ie, a meeting to define the teams definition of done.  I was thinking of first looking at artefacts and then associated a checklist with each eg epic, story, release and then definition of done for each of those.  Any ideas would be greatly appreciated.",
+        "score": -1,
+        "creationdate": "2017-11-20 13:04:21.163000",
+        "viewcount": 147,
+        "tags": "<agile><scrum-master><definition-of-done><agile-coach>",
+        "answercount": 2,
+        "favoritecount": null,
+        "userId": 4364,
+        "comments": []
+    },
+    {
+        "id": 23500,
+        "title": "What is the best way to link the Business Cases to the user stories in Scrum?",
+        "body": "I am Product Owner of a Scrum Team which has to develop features for multiple business units. All these features are translated in user stories. Of course, some features are developed for multiple business units. To explain it very plainly: for Project X we made a business case and got the budget to develop a feature. In the business case, we stated that it would cost an X amount of money to make sure we can earn Y dollars.  Now, a user story in our backlog will lead to the development of a feature which will be responsible for a certain Return on Investment for that project (or others as well). How can we best track this business value and make a direct link to the business cases for reporting purposes?",
+        "score": 2,
+        "creationdate": "2018-02-07 20:11:35.287000",
+        "viewcount": 480,
+        "tags": "<user-stories><business-case><value><business-process-mapping>",
+        "answercount": 3,
+        "favoritecount": null,
+        "userId": 31420,
+        "comments": []
+    },
+    {
+        "id": 23606,
+        "title": "Agile requirements tracking",
+        "body": "I am new to this forum, I will try to explain the best I can what I am facing. I recently entered a new software development company, and I am the coordinator of a team of Product Owners (POs) who (each of them) are in charge of 5 different products. The thing is that none of them document anything. The business sends requests on a daily basis and they write each requirement just in a simple JIRA issue, so they are not so easy to understand and cannot be properly documented. On one hand, I am trying to educate the business regarding these practices (but they are very demanding so I don't think I will have luck on that). On the other hand, and here comes my question: given the rush of daily activities, I don't want to be pushing the POs to document every single request that comes in. So, when would it be appropriate to formally document requirements? I mean, should we only keep track of requirements when they are long ones, and write daily, short ones is just an issue?",
+        "score": 0,
+        "creationdate": "2018-02-25 01:16:03.340000",
+        "viewcount": 212,
+        "tags": "<agile><requirements>",
+        "answercount": 2,
+        "favoritecount": null,
+        "userId": 31638,
+        "comments": [
+            {
+                "text": "Well, software is working, but the process get messy on some occasions... As soon as I started working here, I met with all Dev Leads to see what could be improved from the POs side, and all of them agreed in that requirements were not clear, that each PO did that in their own way without following any standard way, they just put 2 or 3 sentences in a jira ticket and send that to devs...",
+                "score": 0,
+                "userId": 31638
+            }
+        ]
+    },
+    {
+        "id": 23647,
+        "title": "How to speed up a passed-the-deadline project while maintaining credibility?",
+        "body": "The team I manage has been in the final pre-production push / bug-fixes stage at the end of the project for over a month now, while we allotted one week for these fixes (total project time was 2 months, are now at 3 months). Due to external pressures, I have twice pushed for deployment with the outlook that this first iteration of the product doesn't need to be perfect, and both times deployment has failed and we had to rollback due to bugs and not being ready for the actual launch (which requires downtime and complicated database migrations). I am \"defending\" my hurrying deployment (to my team) by explaining that I am OK with taking risks and \"breaking things\" in favor of relevance and ontime delivery, but they are not buying this. I feel that after two failed launches, I am losing/have lost credibility with my team, and they are not confident in my ability to decide to move forward, which is further slowing down the end of the project. What is the right thing to do here?",
+        "score": 0,
+        "creationdate": "2018-03-01 23:23:04.067000",
+        "viewcount": 125,
+        "tags": "<software-development><project-management-style>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 31681,
+        "comments": []
+    },
+    {
+        "id": 23809,
+        "title": "What work items would look like related to support for a solution in production already?",
+        "body": "Our shop is going to continue maintenance of a system in production already. Our next update consists of fixing a bug and creating documentation so that new members joining our team may understand the system. I don't know what the work items should be since we have a brand new Team Foundation Server (with Scrum template) and the higher-ups want all work tracked in it. Would something like this work?:  Epic: Customer relationship management \"Echo\" System Support and Updates. Feature: System Updates. PBI: 1. As a system admin, I want to understand the system completely so I can provide innovation and support. Bug: 2. No role validation during approval of a product. Task: 1. Create documentation with workflow process of \"Echo\" system. Task: 2. Refactor code so that approval action will validate if role is correct for validation.",
+        "score": 0,
+        "creationdate": "2018-04-05 13:11:22.290000",
+        "viewcount": 64,
+        "tags": "<agile><pm-software><tfs>",
+        "answercount": 2,
+        "favoritecount": null,
+        "userId": 32038,
+        "comments": [
+            {
+                "text": "I saw and read your links - it seems to be substantiating the idea of being flexible with stories but still keeping the who, what, why questions answered. He joked about the \"As\" format, but he still ended up confirming it needed to answer those 3 Ws. However I'm more interested on how teams track their work that is not directly a business value\\product owner related, such as creating documents, training, new employees etc.",
+                "score": 0,
+                "userId": 32038
+            }
+        ]
+    },
+    {
+        "id": 24493,
+        "title": "What should we do if there are not enough PBIs to fill a final Sprint in Scrum?",
+        "body": "Background Scenario At the end of a project, there aren't enough story points to fill a two-week Sprint based on the velocity of the team.  Capacity & Backlog The average velocity of the Development Team is actually 40 points per Sprint. In the Product Backlog there are just 20 points remaining to be completed. Question Should we start this final Sprint as a standard two-week Sprint, no matter the amount of points remaining, or should we use a quick one-week Sprint in this case?",
+        "score": 12,
+        "creationdate": "2018-07-16 01:36:35.083000",
+        "viewcount": 2397,
+        "tags": "<scrum><sprint><sprint-planning><product-backlog>",
+        "answercount": 4,
+        "favoritecount": 2,
+        "userId": 32948,
+        "comments": []
+    },
+    {
+        "id": 24669,
+        "title": "In scrum, does it ever make sense to hire a product owner?",
+        "body": "I have seen a scrum team trying to hire a product owner. They advertise for scrum skills, and experience. Does it make sense to hire a product owner from outside the company? If I do what skills should they have?",
+        "score": 9,
+        "creationdate": "2018-08-08 18:52:51.453000",
+        "viewcount": 651,
+        "tags": "<scrum><product-owner><human-resources>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 3424,
+        "comments": [
+            {
+                "text": "I have seen an advert for a product-owner role. It is 100% focused on Scrum skills, no mention of the product, or what the company does. I then noticed that there are many jobs advertised for a product-owner, though I did not read any of these.",
+                "score": 0,
+                "userId": 3424
+            },
+            {
+                "text": "@nvoigt that looks like an answer, a short answer, but an answer. (it seems about the right size for what you have to say)",
+                "score": 0,
+                "userId": 3424
+            }
+        ]
+    },
+    {
+        "id": 24889,
+        "title": "Business days calculation for the sprint",
+        "body": "Our team is new to agile. We are in the phase of defining the rules for sprint planning. To start, we are keeping our Sprints at 2 weeks (10 business days). Let's say there is a public holiday in a week: then we are left with 9 business days. Should the Sprint duration be kept to 10 business days, which means two weeks and 1 more business day? Or should the user stories be chosen in a manner to fit in the 9 business days?",
+        "score": 2,
+        "creationdate": "2018-09-12 08:49:20.203000",
+        "viewcount": 1599,
+        "tags": "<scrum><agile><sprint>",
+        "answercount": 2,
+        "favoritecount": null,
+        "userId": 33526,
+        "comments": []
+    },
+    {
+        "id": 25391,
+        "title": "Moving backlog items into Sprint",
+        "body": "In Agile, who's the person responsible of moving tickets in Jira (e.g. moving backlog items into Sprint).  Is this a Scrum Master's responsibility or Product Owner?",
+        "score": 4,
+        "creationdate": "2018-12-05 00:41:07.067000",
+        "viewcount": 1969,
+        "tags": "<scrum><agile><jira><sprint><backlog>",
+        "answercount": 4,
+        "favoritecount": 1,
+        "userId": 34291,
+        "comments": [
+            {
+                "text": "We're in the middle of the sprint.  Thanks.",
+                "score": 0,
+                "userId": 34291
+            }
+        ]
+    },
+    {
+        "id": 25719,
+        "title": "Scrum for SDK development - split stories horizontally?",
+        "body": "Our product is moving more and more in the direction of a software development kit (SDK) which can be used by other developers.  This brings up quite some challenges to our agile processes, though and I am searching for suggestions from people who have experience with this.  The main question we are struggling with is: how to split user stories, since we are disagreeing on who our user is. Are we planning for features from an end-user perspective (we currently ship the SDK together with a standard implementation, so everything actually has UI, etc. but customers can also adjust this standard behaviour to their needs) or is it enough to define a ticket in terms of \"There should be a method in class X doing Y\"? In \"normal\" Scrum Teams, it's a bad practice to split user stories by horizontal layers but some team members argue that if we consider the SDK consumer as a user, then a ticket \"There should be a method in class X doing Y\" should be valid and that a separate ticket for UI for the same feature can be created since that one targets a different user/use-case.  I hope I explained well enough to give you a good understanding. I am happy to hear your thoughts, experiences and suggestions!",
+        "score": 5,
+        "creationdate": "2019-01-30 14:22:47.593000",
+        "viewcount": 721,
+        "tags": "<scrum><software-development><user-stories><development-process>",
+        "answercount": 2,
+        "favoritecount": 1,
+        "userId": 33761,
+        "comments": []
+    },
+    {
+        "id": 26106,
+        "title": "How to work with sprints having to provide support to unplanned issues?",
+        "body": "All, I have to work with an Agile team that they have to attend to live system issue(tickets) fixing while working on a sprint. So that we cannot achieve the committed  SP  at the end of the sprint. Does anyone have advice for such an issue?",
+        "score": 4,
+        "creationdate": "2019-03-30 18:04:19.040000",
+        "viewcount": 240,
+        "tags": "<scrum><agile><planning>",
+        "answercount": 5,
+        "favoritecount": null,
+        "userId": 34796,
+        "comments": []
+    },
+    {
+        "id": 26220,
+        "title": "In Scrum, what should we do with partly-completed work started at the end of a Sprint?",
+        "body": "I get most of Scrum. However, I can't get my head around what to do with work in progress at the end of a Sprint. If we are working in a swarm, we can defer the end of a Sprint, or bring it forward if we don't think we have enough time. However, when working as individuals or in pairs, not every one finishes at exactly the same time. Therefore some people will be sitting around, or producing work that cannot be finished. As a developer I hate it when I am halfway through my 7th bit of work, and the Sprint ends. If the unfinished work is selected for the next Sprint, all is good; but if not, then I feel disheartened. Even worse is when it is selected in a later Sprint. (This seems to go against the low work in progress philosophy). In the past I adapted our practice to focus on low work-in-progress, and regular review (but no Sprints). I later realized that this was Scrumban. Am I missing something? I would like to get a better understanding of pure Scrum. (I know we are supposed to adapt it, but understanding it first is also a very good idea).",
+        "score": 8,
+        "creationdate": "2019-04-16 19:51:18.107000",
+        "viewcount": 419,
+        "tags": "<scrum><agile><sprint-backlog>",
+        "answercount": 2,
+        "favoritecount": 2,
+        "userId": 3424,
+        "comments": []
+    },
+    {
+        "id": 26555,
+        "title": "Mark user stories as not possbile/plausible",
+        "body": "Our team noticed during this Sprint that a user story is not plausible to do from a technical point of view. We approved this decision with our stakeholders and client and we want to mark this user story as \"will not be implemented\" or something similar. I can't find any official documentation on how to deal with these sort of user stories. Is there an official way to mark these user stories and are there some functionalities in the tool Jira for that?",
+        "score": 2,
+        "creationdate": "2019-06-03 18:29:05.967000",
+        "viewcount": 180,
+        "tags": "<scrum><user-stories>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 36080,
+        "comments": []
+    },
+    {
+        "id": 28228,
+        "title": "How should a Scrum master handle disagreements about story-point estimates in Scrum?",
+        "body": "For example : Some see its userstory (e.g. 2 points) and others see technical complications and judge that the story should be 20 points. The 2-point voters say, \"I understand your opinion, but don't think those complications are valid.\" The 20-point voters say, \"The past tells us that these things are always a lot more complicated then they seem.\" Now the team is in deadlock condition. can you someone  put some light on this. how to handle this suitation.",
+        "score": 20,
+        "creationdate": "2020-02-24 10:23:13.280000",
+        "viewcount": 8220,
+        "tags": "<scrum><agile><estimation><user-stories>",
+        "answercount": 9,
+        "favoritecount": 5,
+        "userId": 38787,
+        "comments": []
+    },
+    {
+        "id": 29584,
+        "title": "How do I overcome a bottleneck in a team's process, when what people are telling me doesn't match what I see",
+        "body": "I started a new job a few months ago as a scrum master. The team was and still is having problems completing their tasks during the sprint.  Initially the problems seemed to be tasks that were too big and there were some blockers early on in the development process. As these problems were solved the percentage of tasks in the Testing column at the end of the sprint kept going up and up. While the done column didn't move much at all. There are two developers for each tester. Which is more testers than my previous team, but I am not sure how it compares to the industry average. I asked how the team could help the testers. I was told the developers weren't testing the changes before passing it to the tester. So we tightened up the pretesting quantity gates. Now not only do changes need to pass code review by another developer the developers also have to demo the code to the testers before the testers test it. The percentage of tasks in the testing column went up again. Now it is more than 80% of tasks by the end of the sprint. I suggested that the developers and testers pair test the tasks combining the pretest demo and testing. But the testers don't trust any testing done in the development environment and they won't let the changes into the testing environment without a pretest demo. And the suggestion that the developers and testers test in both environments in quick succession is popular with no-one. I have been talking the lead tester and the challenges they are experiencing seem significant, however I keep getting the feeling I'm missing something. I feel as if I am asking the wrong questions. I think I need to talk to someone lower on the totem pole, someone less invested in the status quo. Smaller, more concrete, subtler questions maybe during one of those pretesting demos. I'll do that next week. Also the complaints about lack of developer testing are louder. My feeling is that only a few tasks are getting bounced back, but those few are causing  disproportional pain to both developers and testers. Also much of the time the problem is not the task bounced back, but some other task in the testing queue. My feeling is the problems will get worse the longer the testing queue gets. But that is my feeling. It would be nice to have some concrete numbers. With my previous team I would open up JIRA reports and I'd get some idea about what might be causing the problem. With this team JIRA reports is giving me garbage. They are saying we are getting no work done at all which is not quite true. I'd like to get the percentage of tasks reopened after testing and the percentage of time in testing, it looks like I will have to dig into JQL as the standard reports are giving me nothing. What am I doing wrong? What am I missing?  My previous team was more cross functional. With this team I am not sure how to even begin to move them in that direction. Any suggestions in that direction are shot down immediately.",
+        "score": 21,
+        "creationdate": "2020-04-25 09:16:36.347000",
+        "viewcount": 5164,
+        "tags": "<scrum><jira><testing><bugs><velocity>",
+        "answercount": 8,
+        "favoritecount": 2,
+        "userId": 40452,
+        "comments": [
+            {
+                "text": "Non-developers tell me the problem is with the developers and the developers don't defend themselves but every time we improve what the developers are doing the problem gets worse.",
+                "score": 1,
+                "userId": 40452
+            },
+            {
+                "text": "Bart suggests that the problem is dividing the team into developers and non-developers in the first place and I can't say he's wrong.",
+                "score": 2,
+                "userId": 40452
+            },
+            {
+                "text": "By non-developers I mean the business analysis who is also the product owner, the designer and the testers. I have been trying to get the testers and developers to work more closely together and they have, but it hasn't helped. Something more radical is probably needed.",
+                "score": 0,
+                "userId": 40452
+            },
+            {
+                "text": "I am not 100% sure but there seems to have been a lot of turn over in the last six months but that has been mainly with newer staff. The long term staff seems mostly unchanged. It is one reason I feel I haven't been given the whole story. A mature team should work together more seamlessly or have self imploded before now. I have been told that the lack of productivity is new, but I have been given no explanation except that it shouldn't be happening & some inappropriate anger. I think that some of them where within different teams in the same company before being shifted sideways to this team.",
+                "score": 1,
+                "userId": 40452
+            },
+            {
+                "text": "Perhaps because it is Sunday. Next week is tomorrow morning.",
+                "score": 1,
+                "userId": 40452
+            }
+        ]
+    },
+    {
+        "id": 29724,
+        "title": "Team velocity declined after legacy declaration",
+        "body": "I am the manager and I am struggling with a declined velocity. I have tried to discuss with the team what is going on, and they say they got better at story point estimation. But I suspect they are not motivated.  A few months ago, the director announced that the company planned to phase out the software the team had been working on and replace it a different product from the market. He said there were no timelines yet for the sunset date and it was not their intention to leave users without alternatives. It is not clear if the team will have any role in the new product, so their future is uncertain.  Ever since the announcement, the velocity has declined by up to 50%. I suspect the team are either interviewing or ramping up their skills to prepare for their next job. How do I motivate them to restore their velocity?  I know it is not common for management to rely on velocity as a measure of productivity. But in this company, velocity and individual points are how teams and individuals are evaluated.",
+        "score": 1,
+        "creationdate": "2020-05-19 13:16:10.110000",
+        "viewcount": 180,
+        "tags": "<agile><team-management><sprint><motivation><velocity>",
+        "answercount": 4,
+        "favoritecount": null,
+        "userId": 36006,
+        "comments": []
+    },
+    {
+        "id": 30136,
+        "title": "Refactoring in Agile development",
+        "body": "In an app development project, the full scope of the project was not considered in the app design. So, the frequent refactoring of codes to accommodate changes is negatively impacting the project delivery timeline, which has become necessary during a sprint. How best can this be controlled to minimize the risk of overshooting the agreed date of project delivery, since stakeholders are not willing to compromise?",
+        "score": 5,
+        "creationdate": "2020-08-15 14:03:16.870000",
+        "viewcount": 515,
+        "tags": "<scrum><agile><software-development><schedule-risk>",
+        "answercount": 2,
+        "favoritecount": 1,
+        "userId": 42400,
+        "comments": []
+    }
+]
